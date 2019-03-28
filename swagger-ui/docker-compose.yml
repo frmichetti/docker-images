@@ -1,0 +1,9 @@
+version: '2'
+services:
+  swagger_ui:
+    image: lukastosic/swaggerui-docker
+    restart: always
+    volumes:
+      - ./swagger.json /app/swagger.json
+    ports:
+      - 80:9000

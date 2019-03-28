@@ -1,2 +1,3 @@
 .idea/
-./postgresql/data/*
+./postgresql/data/postgresql/
+./wildfly-mysql/workdir/
